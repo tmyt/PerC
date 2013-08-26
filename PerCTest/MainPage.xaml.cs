@@ -24,6 +24,8 @@ namespace PerCTest
         public MainPage()
         {
             this.InitializeComponent();
+
+            PerC.PXC.Session.Current.ToString();
         }
 
         /// <summary>

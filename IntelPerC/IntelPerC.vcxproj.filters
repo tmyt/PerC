@@ -5,11 +5,26 @@
       <UniqueIdentifier>fdf368b2-013e-484c-a5ce-4f6748fadef5</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="PXC">
+      <UniqueIdentifier>{9faeac0d-8a61-42b7-8beb-3eb740bb1dd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Session.cpp">
+      <Filter>PXC</Filter>
+    </ClCompile>
+    <ClCompile Include="Capture.cpp">
+      <Filter>PXC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Session.h">
+      <Filter>PXC</Filter>
+    </ClInclude>
+    <ClInclude Include="Capture.h">
+      <Filter>PXC</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
